@@ -1,0 +1,29 @@
+{#
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ $Id$
+~ $URL$
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#}
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+	<title>{{ pagetitle|default('Strikowestofen Corporate Page') }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" type="text/css" media="screen" href="fileadmin/Corporate/Public/css/app.css" />
+</head>
+<body>
+{% block Header %}
+{% include 'partials/Header.html' %}
+{% endblock %}
+<main>
+{% block Content %}
+ Content …
+{% endblock  %}
+</main>
+{% block Footer %}
+{% include 'partials/Footer.html' %}
+{% endblock %}
+<script src="//dev.2015.strikowestofen.lan:35729/livereload.js"></script>
+</body>
+</html>
